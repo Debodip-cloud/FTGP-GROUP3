@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Voting System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('voting_background.jpg'); /* Replace 'background_image.jpg' with the path to your background image */
+            background-size: auto;
+            background-position: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #007bff; /* Blue color */
+        }
+
+        p {
+            color: #ffff00;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin: 10px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .vote_logo {
+            max-width: 90%;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #a9a9a9; /* Blue color */
+        }
+        nav {
+            margin-top: 20px; /* Add margin to separate the navigation from the content */
+            text-align: right;
+        }
+
+        nav a {
+            color: #ffffff; /* Set link color to white */
+            text-decoration: none;
+            margin: 0 10px; /* Add margin to space out the links */
+ 
+        }
+
+        nav a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+ <nav>
+        <a href="about_us.html">About Us</a>
+    </nav>
+    <div class="container">
+        <img class="vote_logo" src="pasted_image.png" alt="Voting Logo">
+        <h1>Welcome to the Decentralized Voting System</h1>
+        <p>Designed to make the voting secure and transparent.</p>
+        <a href="voter_signin.html" class="button">Sign in as a Voter</a>
+        <a href="admin_signin.html" class="button">Sign in as an Admin</a>
+        <h2>Empower democracy with transparency and security – join us in reshaping the future of voting with our decentralized platform.<h2>
+    </div>
+
+</body>
+</html>
