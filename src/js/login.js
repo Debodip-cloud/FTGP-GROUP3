@@ -1,7 +1,7 @@
 document.getElementById("loginForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    var username = document.getElementById("username").value;
+    var username = document.getElementById("voter-id").value;
     var password = document.getElementById("password").value;
 
     // Combine username and password
